@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #303030;
+    font-size: 100%;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: flex-start;
+    color: #FFFFFF;
+    align-self: flex-start;
+    margin-bottom: 80px;
+}
+
+h3 {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50.52px;
+    line-height: 76px;
+    color: #FFFFFF;
+    width: 280px;
+    height: 60px;
+}
+
+h4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 16.43px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+h6 {
+    display: flex;
+    align-items: center;
+    align-self: start;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 500;
+    font-size: 21.33px;
+    line-height: 24px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: #E53535;
+}
+
+.banner-menu {
+    display: flex;
+    gap: 32px;
+    color: #FFFFFF;
+}
+
+.banner-menu-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 700px;
+    font-size: 16.43px;
+    line-height: 43px;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-menu-item:hover {
+    display: flex;
+    flex-direction: row;
+    text-decoration: underline;
+    font-weight: 800px;
+    color: #303030;
+}
+
+section {
+    display: flex;
+}
+
+.conteudo {
+    display: flex;
+    border-top: 0.4px transparent;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    column-width: 100px;
+    gap: -70px;
+    color: #FFFFFF;
+    margin-top: 200px;
+}
+
+.conteudo-principal-nome {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+    font-size: 50.52px;
+    line-height: 75.78px;
+    height: 30px;
+}
+
+.conteudo-principal-descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    gap: -30px;
+    margin-top: -10px;
+}
+
+.conteudo-principal-botao {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    text-align: center;
+    width: 170px;
+    height: 50px;
+    background: #E53535;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 1px 1px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 21.328px;
+    line-height: 32px;
+    margin-bottom: -30px;
+    margin-left: -590px;
+}
+
+.conteudo-principal-botao:hover {
+    background-color: #db89e6;
+}
+
+.conteudo-principal-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-content: flex-end;
+    height: 500px;
+    width: 500px;
+    box-shadow: none;
+    margin-right: 80px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 100px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    column-width: 100px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-left: 120px;
+    margin-top: -120px;
+    height: 500px;
+    width: 400px;
+    gap: 30px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    background-color: #E53535;
+}
+
+.rodape-img-redes-sociais {
+    display: flex;
+    flex-direction: row;
+    writing-mode: horizontal-tb;
+    align-items: flex-start;
+    justify-content: center;
+    height: 30px;
+    width: 35px;
+    gap: 20px;
+}
